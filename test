@@ -1,0 +1,10 @@
+<nav>
+        <div>
+            <img src=""><h3>Timothey Kissayi</h3>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Réalisations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
