@@ -10,18 +10,17 @@
 <body>
     <nav class="navbar">
         <div class="logo">Timothey Kissayi</div>
-        <ul class="nav-links">
-          <li><a href="#home">Accueil</a></li>
-          <li><a href="#about">À Propos</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         <div class="toggle-btn">
           <span></span>
           <span></span>
           <span></span>
         </div>
     </nav>
-    
     <main>
        <section>
             <div>
@@ -30,38 +29,38 @@
             <div>
                 <h1 id="titre">Mes Réalisations</h1>
             </div>
-                <div class="realisation">
-                <div>
-                    <img src="images\projet_1.png"> 
-                    <h3>Page vitrine Shop Sneakers</h3>
-                    <p>Design + dev</p>
-                </div>
-                <div>
-                    <img src="images\photo_2.png">
-                    <h3>Présentation Album</h3>
-                    <p>Design + dev</p>
-                </div>
+            <div class="realisation">
+            <div>
+                <img src="images\projet_1.png"> 
+                <h3>Page vitrine Shop Sneakers</h3>
+                <p>Design + dev</p>
+            </div>
+            <div>
+                <img src="images\photo_2.png">
+                <h3>Présentation Album</h3>
+                <p>Design + dev</p>
+            </div>
             </div>
             <!-- Pour les balises center je sais que tu m'as fais la remarque :) MAIS en remplaçant par des div je perd toutes mes propriétés je sais pas pourquoi -->
             <center>
-                <div id="SkillBox">
-                        <center>
+            <div id="SkillBox">
+                <center>
                         <h1>My Skills</h1>
-                        </center>
+                </center>
             <div class="SkillBar">
-                    <div id="Skill-HTML"> 
-                      <span class="Skill-Area ">HTML</span>
-                      <span class="PercentText ">100%</span>
-                    </div>
-                  </div>
+                <div id="Skill-HTML"> 
+                    <span class="Skill-Area ">HTML</span>
+                    <span class="PercentText ">100%</span>
+                </div>
+            </div>
                   
-                  <div class="SkillBar">
+                <div class="SkillBar">
                     <div id="Skill-CSS">
                       <span class="Skill-Area ">CSS/CSS3</span>
                       <span class="PercentText ">70%</span>
                     </div>
-                  </div>
                 </div>
+            </div>
             </center>
             <h1 id="titre">Témoignages</h1>
             <div class="temoignages-conteneur">
@@ -70,13 +69,13 @@
                         <h4>Julien Jet</h4>
                     </div>
                         <p id="texte">Très bon élèment !</p>
-                        <div class="note">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
+                    <div class="note">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
                 <div class="temoignages">
                     <div>
@@ -96,13 +95,13 @@
                         <h4>Florent John</h4>
                     </div>
                         <p id="texte">Très bon élèment !</p>
-                        <div class="note">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
+                    <div class="note">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
                 <div class="temoignages">
                     <div>
@@ -130,23 +129,22 @@
                 <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
             </div>
             <div class="icon">
-                <div class="button">
-                    <p>Me contacter</p>
-                </div>
+              <div class="button">
+                <p>Me contacter</p>
+              </div>
             </div>
         
         
         <script>
-                const toggleBtn = document.querySelector('.toggle-btn');
-                const navLinks = document.querySelector('.nav-links');
+                let toggleBtn = document.querySelector('.toggle-btn');
+                let navLinks = document.querySelector('.nav-links');
                 toggleBtn.addEventListener('click', () => {
                   navLinks.classList.toggle('active');
                 });
-                
         </script>    
         </footer>  
         </section>
     </main>
-<!-- Honnêtement j'ai essayé de faire en sorte de respecter les consignes et l'exo pour le rendu mais je suis pas totalement satisfait du résultat :')' -->
+<!-- Honnêtement j'ai essayé de faire en sorte de respecter les consignes et l'exo pour le rendu mais je suis pas totalement satisfait du résultat final en terme d'esthétisme :')' -->
 </body>
 </html>
