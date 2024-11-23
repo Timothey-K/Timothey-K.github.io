@@ -9,34 +9,40 @@
 </head>
 <body>
     <nav class="navbar">
-        <div>
-            <h3>Timothey Kissayi</h3>
-        </div>
-        <div>
-            <ul  class="liste">
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Réalisations</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="logo">Timothey Kissayi</div>
+        <ul class="nav-links">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
     </nav>
+    
     <main>
        <section>
+            <div>
+                <h1 class="nom">Timothey Kissayi</h1>
+            </div>
             <div>
                 <h1 id="titre">Mes Réalisations</h1>
             </div>
                 <div class="realisation">
                 <div>
-                    <img src="images\Capture.PNG">
-                    <h3>Page vitrine shop sneakers</h3>
+                    <img src="images\projet_1.png"> 
+                    <h3>Page vitrine Shop Sneakers</h3>
                     <p>Design + dev</p>
                 </div>
                 <div>
-                    <img src="images\album.PNG">
+                    <img src="images\photo_2.png">
                     <h3>Présentation Album</h3>
                     <p>Design + dev</p>
                 </div>
             </div>
+            <!-- Pour les balises center je sais que tu m'as fais la remarque :) MAIS en remplaçant par des div je perd toutes mes propriétés je sais pas pourquoi -->
             <center>
                 <div id="SkillBox">
                         <center>
@@ -61,7 +67,7 @@
             <div class="temoignages-conteneur">
                 <div class="temoignages">
                     <div>
-                        <h4>Florent John</h4>
+                        <h4>Julien Jet</h4>
                     </div>
                         <p id="texte">Très bon élèment !</p>
                         <div class="note">
@@ -74,7 +80,7 @@
                 </div>
                 <div class="temoignages">
                     <div>
-                        <h4>Florent John</h4>
+                        <h4>Nicolas Rollinger</h4>
                     </div>
                         <p id="texte">Très bon élèment !</p>
                     <div class="note">
@@ -100,7 +106,7 @@
                 </div>
                 <div class="temoignages">
                     <div>
-                        <h4>Florent John</h4>
+                        <h4>Gaétane Heiderich</h4>
                     </div>
                         <p id="texte">Très bon élèment !</p>
                     <div class="note">
@@ -117,21 +123,30 @@
         <footer>
             <h3>Travaillons ensemble !</h3>
             <div>
-                <p>Petit texte pour motiver le visiteur à collaborer et vous contacter par mail</p>
+                <p>Je serais ravi de contribuer à vos projets grâce à mes compétences et ma motivation.</p>
             </div>
             <div class="logo">
-                <a href="#"></a><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"></a><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
             </div>
             <div class="icon">
                 <div class="button">
                     <p>Me contacter</p>
                 </div>
             </div>
-            
+        
+        
+        <script>
+                const toggleBtn = document.querySelector('.toggle-btn');
+                const navLinks = document.querySelector('.nav-links');
+                toggleBtn.addEventListener('click', () => {
+                  navLinks.classList.toggle('active');
+                });
+                
+        </script>    
         </footer>  
         </section>
     </main>
-
+<!-- Honnêtement j'ai essayé de faire en sorte de respecter les consignes et l'exo pour le rendu mais je suis pas totalement satisfait du résultat :')' -->
 </body>
 </html>
